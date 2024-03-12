@@ -1,6 +1,6 @@
 //criação do model
 const Sequelize = require("sequelize");
-const database = require("./db");
+const database = require("../db");
 
 //criação da tabela
 const Cliente = database.define("cliente", {
