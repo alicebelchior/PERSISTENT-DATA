@@ -29,4 +29,4 @@ const Cliente = database.define("cliente", {
 });
 
 //exportação para utilização da tabela na aplicação
-module_exports = Cliente;
+module.exports = Cliente;
