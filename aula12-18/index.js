@@ -1,9 +1,9 @@
 // BILIOTECAS/MÓDULOS UTILIZADOS
 const database = require('./db/db');
-// CRIAÇÃO DO SERVIDOR NODE
-const express = require('express');
-const app = express();
+const express = require('express'); // CRIAÇÃO DO SERVIDOR NODE
+const app = express(); // CRIAÇÃO DO SERVIDOR NODE
 const porta = 443;
+const Video = require('./models/Video'); // REQUERENDO O MODEL "VIDEO"
 
 // SINCRONIZAÇÃO COM O BD
 try{
