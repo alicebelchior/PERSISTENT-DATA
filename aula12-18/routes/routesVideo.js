@@ -15,7 +15,7 @@ router.get("/", ControllerVideo.listarVideos);
 
 // ROTA PARA O UPDATE
 // chamando a view para atualizar algum campo/arquivo errado
-router.get("/update/id_video", ControllerVideo.UpdateVideo);
+router.get("/update/:id_video", ControllerVideo.UpdateVideo);
 // envio das alterações para o BD
 router.post("/update", ControllerVideo.VideoUpdate);
 

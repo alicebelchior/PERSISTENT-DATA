@@ -4,7 +4,7 @@ const Video = require('../models/Video')
 //CRIAÇÃO E EXPORTAÇÃO DA CLASSE 
 module.exports = class VideoController{
     // ao chamar a função "cadastrarVideo", ela vai renderizar uma view (página) "cadastrar", dentro da pasta "videos"
-    static cadastrarVideo(req, res) =>{
+    static cadastrarVideo(req, res) {
         res.render("videos/Cadastrar")
     }
 
