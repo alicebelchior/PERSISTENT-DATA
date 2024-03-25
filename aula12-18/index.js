@@ -9,7 +9,7 @@ const hand = require("express-handlebars");
 
 // CONTROLLERS
 const VideoControllers = require("./controllers/ControllerVideo");
-app.engine("handlebars", hand.engine);
+app.engine("handlebars", hand.engine());
 app.set("view engine", "handlebars");
 app.use(
   express.urlencoded({
